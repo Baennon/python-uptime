@@ -23,7 +23,7 @@ def request(url: str) -> tuple:
 
 def main(argv: list) -> None:
     if len(argv) < 2:  # if no url is specified, exit with usage
-        print("Usage : Uptaime.py url")
+        print("Usage : Uptaime.py URL")
         exit()
 
     url = argv[1]  # store the url to watch
